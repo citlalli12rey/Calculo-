@@ -52,6 +52,7 @@ p_distributiva = 'a (b+c) = ab * a c';
 disp('propiedad distributiva');
 a= 2; 
 b= 1;
+a+(b+c)
 (a*b)*(a*c)
 
 %Neutro aditivo
@@ -81,13 +82,24 @@ a+-a
 p_inversoM='a(1/a)=1';
 disp('propiedad multiplicativo o reciproco');
 a=5;
-1/a
+a(1/a)
 
 
 %Propiedad transitiva (| entonces)
 p_transitiva= ' si a> b y b > c | a>c';
 p_transitiva = 'si a = b y b = c | a =c';
-disp('propiedad transitiva');
-a=4
+disp('si a > b y b > c | a>c');
+disp('si a = b y b = c | a = c');
 
+%Tricotomia (raiz del algebra) siempre se pueden comparar
+disp('Trinomia (raiz del algebra) siempre se pueden comparar');
+p_tricotomia = 'a > b ';
+p_tricotomia2 = 'a = b';
+p_tricotomia3 = 'a < b';
+disp('Si a=2 y b =1 Entonces a > b ');
+disp('Si a=2 y b =2 Entonces a = b');
+disp('Si a=1 y b =2 Entonces a < b');
+
+%signos de agrupacion
+s_agrupacion = '{[()]}';
 
